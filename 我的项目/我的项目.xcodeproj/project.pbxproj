@@ -13,6 +13,7 @@
 		6BF016D31F8B6B17003733B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BF016D11F8B6B17003733B6 /* Main.storyboard */; };
 		6BF016D51F8B6B17003733B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BF016D41F8B6B17003733B6 /* Assets.xcassets */; };
 		6BF016D81F8B6B17003733B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BF016D61F8B6B17003733B6 /* LaunchScreen.storyboard */; };
+		6BF016E21F8B6B9B003733B6 /* CLLPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF016E11F8B6B9B003733B6 /* CLLPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		6BF016D41F8B6B17003733B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BF016D71F8B6B17003733B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6BF016D91F8B6B17003733B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BF016E01F8B6B9B003733B6 /* CLLPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLPerson.h; sourceTree = "<group>"; };
+		6BF016E11F8B6B9B003733B6 /* CLLPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 		6BF016DF1F8B6B31003733B6 /* 我的框架 */ = {
 			isa = PBXGroup;
 			children = (
+				6BF016E01F8B6B9B003733B6 /* CLLPerson.h */,
+				6BF016E11F8B6B9B003733B6 /* CLLPerson.m */,
 			);
 			path = "我的框架";
 			sourceTree = "<group>";
@@ -159,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BF016E21F8B6B9B003733B6 /* CLLPerson.m in Sources */,
 				6BF016D01F8B6B17003733B6 /* ViewController.m in Sources */,
 				6BF016CD1F8B6B17003733B6 /* AppDelegate.m in Sources */,
 				6BF016CA1F8B6B17003733B6 /* main.m in Sources */,
